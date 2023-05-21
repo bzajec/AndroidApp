@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/paddingItemPager">
+
+        <ImageView
+            android:id="@+id/ivItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ivHeight"
+            tools:src="@drawable/controller"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dateMarginTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="@dimen/tvTitlesWidth"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/title"/>
+
+            <TextView
+                android:layout_width="@dimen/tvTitlesWidth"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/genre"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/titleTextTopMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:textStyle="italic"
+                tools:text="Lorem Ipsum is simply dummy text" />
+
+            <TextView
+                android:id="@+id/tvGenre"
+                android:layout_width="200dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                tools:text="Lorem Ipsum is simply dummy text"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/titleTextTopMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="@dimen/tvTitlesWidth"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/platform"/>
+
+            <TextView
+                android:layout_width="@dimen/tvTitlesWidth"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/release_date"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/titleTextTopMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvPlatform"
+                android:layout_width="200dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                tools:text="Lorem Ipsum is simply dummy text"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="200dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                tools:text="Lorem Ipsum is simply dummy text"/>
+
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="@dimen/titleTextTopMargin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/Description"/>
+
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            tools:text="Lorem Ipsum is simply  dummy text of the printing  and typesetting industry. ng industry. Lorem Ipsum has been the industry's standard dummy text ever Lorem Ipsum has s been  been the industry's standard dummy text ever since the 1500s, the industry's stan printing  and typesetting industry. ng industry. Lorem Ipsum has been the industry's standard dummy text ever Lorem Ipsum has s been  been the industry's standard dummy text ever since the 1500s, the industry's standard dummy text ever since the 1500s, when an unknown printer  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic ypesetting, remaining essentially unchanged. It was popularised in the 1960s with the typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/titleTextTopMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="@dimen/tvTitlesWidth"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/publisher"/>
+
+            <TextView
+                android:layout_width="@dimen/tvTitlesWidth"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/developer"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/titleTextTopMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvPublisher"
+                android:layout_width="200dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                tools:text="Lorem Ipsum is simply dummy text"/>
+
+            <TextView
+                android:id="@+id/tvDeveloper"
+                android:layout_width="200dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                tools:text="Lorem Ipsum is simply dummy text"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:autoLink="web"
+            android:layout_marginTop="@dimen/linkMarginTop"
+            android:id="@+id/tvGameUrl"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            tools:text="Lorem Ipsum is simply dummy text"/>
+
+        <TextView
+            android:autoLink="web"
+            android:layout_marginTop="@dimen/linkMarginTop"
+            android:id="@+id/tvMoreUrl"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            tools:text="Lorem Ipsum is simply dummy text"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

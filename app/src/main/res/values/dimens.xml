@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashPaddingMain">50dp</dimen>
+    <dimen name="splashIvWidth">319dp</dimen>
+    <dimen name="splashIvHeight">392dp</dimen>
+    <dimen name="splashTextSize">50sp</dimen>
+    <dimen name="nvMarginTop">25dp</dimen>
+    <dimen name="heightNavHeader">100dp</dimen>
+    <dimen name="widthNavHeader">150dp</dimen>
+    <dimen name="width_NavView">162dp</dimen>
+    <dimen name="height_NavView">240dp</dimen>
+    <dimen name="paddingMain">10dp</dimen>
+    <dimen name="ivSize">50dp</dimen>
+    <dimen name="tvSize">20sp</dimen>
+    <dimen name="marginLeft">20dp</dimen>
+    <dimen name="cornerRadius">9dp</dimen>
+    <dimen name="paddingItemPager">10dp</dimen>
+    <dimen name="ivHeight">300dp</dimen>
+    <dimen name="dateMarginTop">20dp</dimen>
+    <dimen name="titleTextTopMargin">2dp</dimen>
+    <dimen name="linkMarginTop">10dp</dimen>
+    <dimen name="tvTitlesWidth">0dp</dimen>
+    <dimen name="aboutPadding">10dp</dimen>
+    <dimen name="ivAboutHeight">300dp</dimen>
+</resources>

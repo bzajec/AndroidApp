@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Games app</string>
+    <string name="please_wait">Please wait</string>
+    <string name="please_connect_to_internet">Please connect to internet</string>
+    <string name="about">About</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exit">Exit</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="are_you_sure_delete">Are you sure you want to delete</string>
+    <string name="cancle">Cancle</string>
+    <string name="delete">Delete</string>
+    <string name="date">Date of release</string>
+    <string name="title">Title</string>
+    <string name="Description">Description</string>
+    <string name="genre">Genre</string>
+    <string name="release_date">Release date</string>
+    <string name="platform">Platform</string>
+    <string name="publisher">Publisher</string>
+    <string name="developer">Developer</string>
+    <string name="loading">Loading, please wait</string>
+    <string name="about_app_info">This is a app that shows information about all the free games currently out.</string>
+    <string name="app_made_by_bruno_zajec">App made by Bruno Zajec</string>
+    <string name="games">Games</string>
+
+</resources>
